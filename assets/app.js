@@ -26,7 +26,7 @@ if (typeof jatos === "undefined") {
     console.log(`Jatos Query: ${JSON.stringify(queryParams)}`)
     // Run the jsPsych Experiment
     const jsPsych = await run({
-      environment: "mytestenv",
+      environment: "jatos",
       input: jatos.studyJsonInput,
       queryParams: queryParams,
       ...options,
